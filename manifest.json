@@ -1,0 +1,17 @@
+{
+    "name"              : "Mumbai freeCodeCamp Chapter",
+    "short_name"        : "FCC BOM",
+    "description"       : "The community page for the freeCodeCamp in Mumbai",
+    "start_url"         : "/",
+    "display"           : "minimal-ui",
+    "orientation"       : "any",
+    "background_color"  : "#009688",
+    "theme_color"       : "#009688",
+    "icons": [
+      {
+        "src"           : "/images/logos/fcc_puckRoundedCorners600.png",
+        "sizes"         : "600x600",
+        "type"          : "image/png"
+      }
+    ]
+  }
