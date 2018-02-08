@@ -49,7 +49,7 @@ module.exports = {
                 handler: 'cacheFirst'
             },
             {
-                urlPattern: new RegExp('https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg'),
+                urlPattern: new RegExp('https://res.cloudinary.com/mumbai-hackerspace/image/upload/v1518116887/Flag_of_India_w9feth.svg'),
                 handler: 'cacheFirst'
             },
             {

@@ -20,11 +20,11 @@ importScripts('workbox-sw.prod.v2.1.2.js');
 const fileManifest = [
   {
     "url": "bundle.js",
-    "revision": "7a884fe4a9558a88309bfc4a7359689f"
+    "revision": "220c3dd55b7781f6d5cebaa39aa5d725"
   },
   {
     "url": "index.html",
-    "revision": "a690aea4348a37f1fe0f4f19502fe677"
+    "revision": "0ce75e35164623eb472d8972396f421f"
   }
 ];
 
@@ -36,7 +36,7 @@ workboxSW.precache(fileManifest);
 workboxSW.router.registerRoute(/https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css/, workboxSW.strategies.cacheFirst({}), 'GET');
 workboxSW.router.registerRoute(/https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/materialize\/0.100.1\/css\/materialize.min.css/, workboxSW.strategies.staleWhileRevalidate({}), 'GET');
 workboxSW.router.registerRoute(/https:\/\/fonts.googleapis.com\/css?family=Varela+Round/, workboxSW.strategies.cacheFirst({}), 'GET');
-workboxSW.router.registerRoute(/https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/41\/Flag_of_India.svg/, workboxSW.strategies.cacheFirst({}), 'GET');
+workboxSW.router.registerRoute(/https:\/\/res.cloudinary.com\/mumbai-hackerspace\/image\/upload\/v1518116887\/Flag_of_India_w9feth.svg/, workboxSW.strategies.cacheFirst({}), 'GET');
 workboxSW.router.registerRoute(/https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/jquery\/3.2.1\/jquery.min.js/, workboxSW.strategies.cacheFirst({}), 'GET');
 workboxSW.router.registerRoute(/https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/materialize\/0.100.1\/js\/materialize.min.js/, workboxSW.strategies.cacheFirst({}), 'GET');
 workboxSW.router.registerRoute(/https:\/\/res.cloudinary.com\/mumbai-hackerspace\/image\/upload\/q_auto,f_auto\/v1517349573\/Mumbai_Taj_gkgzvb.jpg/, workboxSW.strategies.cacheFirst({}), 'GET');
