@@ -79,9 +79,13 @@ module.exports = {
         ]
     }),
     new copyPlugin([{
-        from: './manifest.json',
-        to: 'manifest.json'
-
-    }])
+            from: './manifest.json',
+            to: 'manifest.json'
+        },
+        {
+            from: './src/images/favicon.ico',
+            to: 'favicon.ico'
+        }
+    ])
   ]
 };
