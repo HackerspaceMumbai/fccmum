@@ -1,3 +1,6 @@
+import './styles.css';
+
+
 $(document).ready(function() {
 	$('.parallax').parallax();
 });
